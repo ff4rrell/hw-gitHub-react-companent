@@ -9,10 +9,10 @@ const Header = () => (
         <Button className='logo_button' buttonName='GitHub'/>
         <input type='text' id='logo__input'/><br/>
         <ul>
-            <li ><UrlLink url='#' urlName='Pull Requests'/> </li> &nbsp;
-            <li ><UrlLink url='#' urlName='Isues'/></li>&nbsp; 
-            <li ><UrlLink url='#' urlName='Marketlace'/></li>&nbsp;
-            <li> <UrlLink url='#' urlName='Explore'/></li>&nbsp;  
+            <li ><UrlLink url='#' urlName='Pull Requests' className='header__link'/> </li> 
+            <li ><UrlLink url='#' urlName='Isues' className='header__link'/></li>
+            <li ><UrlLink url='#' urlName='Marketlace' className='header__link'/></li>
+            <li> <UrlLink url='#' urlName='Explore' className='header__link'/></li>
         </ul>
     </header>
 )
