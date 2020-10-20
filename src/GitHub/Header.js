@@ -1,9 +1,12 @@
 import React from 'react';
+import Button from './companet/Button';
 import UrlLink from './companet/UrlLink'
+
 
 const Header = () => (
     <header className='header'>
-        <button className='logo__button' >GitHub</button>
+    
+        <Button className='logo_button' buttonName='GitHub'/>
         <input type='text' id='logo__input'/><br/>
         <ul>
             <li ><UrlLink url='#' urlName='Pull Requests'/> </li> &nbsp;

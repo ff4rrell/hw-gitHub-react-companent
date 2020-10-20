@@ -5,10 +5,10 @@ import MainIntro from './MainIntro'
 
 
 const Main = () => (
-    <main className='main'>
+    <div className='main'>
         <MainHeader />
         <MainIntro/>
-    </main>
+    </div>
 )
 
 export default Main;
