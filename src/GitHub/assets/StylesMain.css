@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.logo__button{
+    margin: 5px 5px 3px 10px;
+}
+
+.header{
+    background: #24292e;
+    color: #fff;
+    height: 65px;
+    width: 100%;
+}
+
+.header__link{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+li{
+    display: inline;
+    /* word-spacing: 10px; */
+    display: inline-block;
+}
+
+
+/* MAIN */
+
+.main__header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.main__green__button{
+    width: 157px;
+    height: 40px;
+    background-color: #2ea44f;
+    border-radius: 7px;
+    color: #fff;
+    margin: 10px auto ;
+}
